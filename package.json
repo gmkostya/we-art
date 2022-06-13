@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Misinkevych.github.io/work-time",
+  "homepage": "https://Misinkevych.github.io/we-art",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /work-time/"
+    "build": "parcel build src/*.html --public-url /we-art/"
   },
   "repository": {
     "type": "git",
