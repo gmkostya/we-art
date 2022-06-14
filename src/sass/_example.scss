@@ -366,94 +366,174 @@ cursor: pointer;
 
 
 
-.baner{
-  // margin-top: 180px;
-  position: absolute; 
-  top: 187px; 
-  left: 0; 
-  width: 100%; 
-  // height: 100%; 
-  overflow: hidden;
-   z-index: -1;
-}
+// .baner{
+
+//   // margin-top: 180px;
+//   position: absolute; 
+//   top: 187px; 
+//   left: 0px; 
+//   width: 100%; 
+//   // height: 100%; 
+//   overflow: hidden;
+//    z-index: -1;
+// }
 
 
-#video{
-  display: block; 
-  width: 100%; 
-  height: auto;
-  background: url(../images/icon-secion/bg_photo.png);
-  background-repeat: no-repeat; 
-  object-fit: contain;
-  background-size: cover;
+// #video{
+//   display: block; 
+//   width: 100%; 
+//   height: auto;
+//   background: url(../images/icon-secion/bg_photo.png);
+//   background-repeat: no-repeat; 
+//   // object-fit: contain;
+//   background-size: cover;
 
-}
-
-
-.play {
-  position: absolute;
-  top: 100px;
-  left: 250px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
- background-image: url(../images/icon/pley-icon.svg);
-fill: #FFFFFF;
- background-repeat: no-repeat;
- cursor: pointer;
-}
-
-.play svg{
-  fill: #df0d0d;
-  display: block;
-  width: 30px;
-  height: 30px;
-  // background-image: url(../images/icon/pley-icon.svg);
-  // background-repeat: no-repeat;
-}
+// }
 
 
-.pause {
+// .play {
+//   position: absolute;
+//   top: 100px;
+//   left: 250px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 40px;
+//   height: 40px;
+//  background-image: url(../images/icon/pley-icon.svg);
+// fill: #FFFFFF;
+//  background-repeat: no-repeat;
+//  cursor: pointer;
+//  background-size: cover;
 
-  position: absolute;
-  top: 200px;
-  left: 210px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
+// }
 
-  // background-color: #2853be;
-  background: url(..//images/icon/pause-icon.svg);
-background-repeat: no-repeat;
-
-}
-
-.pause svg{
-  // display: none;
-  fill: #0a0ada;
-  display: block;
-  width: 30px;
-  height: 30px;
-
-}
-
-
-
-
-
-
-
-// @media (min-width: 576px) {
-//   .site-navigation {
-//     display: flex;
-//   }
+// .play svg{
+//   fill: #df0d0d;
+//   display: block;
+//   width: 30px;
+//   height: 30px;
   
 // }
 
+
+// .pause {
+
+//   position: absolute;
+//   top: 200px;
+//   left: 210px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 40px;
+//   height: 40px;
+
+//   // background-color: #2853be;
+//   background: url(..//images/icon/pause-icon.svg);
+// background-repeat: no-repeat;
+// background-size: cover;
+
+// }
+
+// .pause svg{
+//   // display: none;
+//   fill: #0a0ada;
+//   display: block;
+//   width: 30px;
+//   height: 30px;
+
+// }
+
+
+// 3-variant
+
+
+// #atlanticlight {
+//   position: relative;
+//   font-size: 0;
+//   width: 320px;
+//   margin: 0 auto;
+// }
+
+// #atlanticlight button {
+//   width: 100%;
+//   height: auto;
+// }
+
+// #atlanticlight button svg {
+//   width: 20%;
+//   margin: 0 auto;
+// }
+
+// #atlanticlight video,
+// #atlanticlight button {
+//   position: absolute;
+//   top: 0;
+// }
+
+// #atlanticlight button {
+//   background: transparent;
+//   outline: none;
+//   border: none;
+//   cursor: pointer;
+// }
+
+// #atlanticlight button svg {
+//   fill: rgb(177, 22, 22);
+//   padding: 3rem;
+//   transition: .6s opacity;
+// }
+
+// #playpause {
+//   display: none;
+// }
+
+// .playing {
+//   opacity: 0;
+// }
+
+// 4-variant
+.video-container {
+  display: block;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+
+.video-container video {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.video-controls {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,.65);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 35px auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.video-controls--play {
+  background-image: url('../images/icon/pley-icon.svg');
+}
+
+.video-controls--pause {
+  display: none;
+  background-image: url('../images/icon/pause-icon.svg');
+}
+
+.video-container:hover .video-controls--pause {
+  display: block;
+}
 
 /* SECTION */
 .main{
