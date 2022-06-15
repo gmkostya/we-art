@@ -469,7 +469,7 @@ height: 50px;
 {
 
   width: 350px;
-  height: 540px;
+  height: 520px;
   margin: -100px 0 0 -28px;
 
 }
@@ -493,8 +493,8 @@ height: 50px;
 #menu-social{
   width: 350px;
   height: 70px;
-  margin: 444px 0 0 -28px;
-  padding: 0 0 0 80px;
+  margin: 420px 0 0 -28px;
+  padding: 0 0 0 110px;
 
 
 }
@@ -507,27 +507,24 @@ height: 50px;
 }
 
 
-.baner{
-  // margin-top: 80px;
-  position: absolute; 
-  top: 80px; 
-  left: 0; 
-  width: 100%; 
-  // height: 100%; 
-  overflow: hidden;
-   z-index: -1;
+.video-container {
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 138px;
+  cursor: pointer;
 }
 
 
-#video{
-  display: block; 
-  width: 100%; 
-  height: auto;
-  background: url(../images/icon-secion/bg_photo.png);
-  background-repeat: no-repeat; 
-  object-fit: cover;
+.video-controls {
+
+  position: absolute;
+  left: 94%;
+  top: 90%;
 
 }
+
+
 
 .overlay{
   width: 295px;
@@ -544,15 +541,15 @@ height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-        // transform: translateX(80px);
+    font-size: 32px;
       }
       .features_title::before {
         position: absolute;
-        left: 320px;
+        left: 340px;
       }
       .features_title::after {
         position: absolute;
-        left: 650px;
+        left: 630px;
       }
   .features-p{
     font-family: 'Roboto', sans-serif;
@@ -603,7 +600,10 @@ height: 50px;
       top: 470px; 
     
     }
-
+    .button-item{
+   font-size: 16px;
+  line-height: 17px;
+    }
     .footer-bar{
       margin: 0;
     height: 100px;
@@ -627,11 +627,35 @@ height: 50px;
       left: 100px;
       top: -30px;
       left: 360px;
-    font-size: 14px;
+    font-size: 12px;
       }
     
 
-
+      .footer-p::before {
+        content: "";
+        display: table;
+        position: absolute;
+        top: 45%;
+        left: 30px;
+        width: 5px;
+        height: 5px;
+        transform: translateY(-50%);
+        border-radius: 50%;
+        background-color: #949597;
+      }
+      .footer-p::after{
+        content: "";
+        display: table;
+        position: absolute;
+        top: 45%;
+        left: 260px;
+        width: 5px;
+        height: 5px;
+        transform: translateY(-50%);
+        border-radius: 50%;
+        background-color: #949597;
+      }
+      
 
 }
 
