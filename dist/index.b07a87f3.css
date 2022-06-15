@@ -443,8 +443,8 @@ a #lang-en:hover, a #lang-en:focus {
 
 .features_title:before {
   content: "";
-  width: 5px;
-  height: 5px;
+  width: 3px;
+  height: 3px;
   background-color: #181819;
   border-radius: 50%;
   display: table;
@@ -456,8 +456,8 @@ a #lang-en:hover, a #lang-en:focus {
 
 .features_title:after {
   content: "";
-  width: 5px;
-  height: 5px;
+  width: 3px;
+  height: 3px;
   background-color: #181819;
   border-radius: 50%;
   display: table;
@@ -659,8 +659,8 @@ a #lang-en:hover, a #lang-en:focus {
 
 .footer-p:before {
   content: "";
-  width: 5px;
-  height: 5px;
+  width: 3px;
+  height: 3px;
   background-color: #949597;
   border-radius: 50%;
   display: table;
@@ -672,8 +672,8 @@ a #lang-en:hover, a #lang-en:focus {
 
 .footer-p:after {
   content: "";
-  width: 5px;
-  height: 5px;
+  width: 3px;
+  height: 3px;
   background-color: #949597;
   border-radius: 50%;
   display: table;
