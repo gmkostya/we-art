@@ -3,6 +3,10 @@
     max-width: 480px;
   }
 
+  .page-header {
+    height: 400px;
+  }
+
   .site-logo svg {
     position: absolute;
     top: -6px;
@@ -38,16 +42,22 @@
     padding: 0 0 0 150px;
   }
 
-  .baner {
+  .video-container {
+    width: 100%;
+    cursor: pointer;
+    display: block;
     position: absolute;
-    top: 130px;
-    left: 0;
+    top: 158px;
   }
 
-  .play {
+  .video-controls {
     position: absolute;
-    top: 170px;
-    left: 390px;
+    top: 84%;
+    left: 90%;
+  }
+
+  .main {
+    height: auto;
   }
 
   features-list [class*="col-"]:not(:last-child) {
@@ -55,28 +65,33 @@
   }
 
   .features-item {
-    height: 810px;
+    height: 600px;
   }
 
   .features_title {
     justify-content: center;
     align-items: center;
+    font-size: 24px;
     display: flex;
   }
 
   .features_title:before {
     position: absolute;
-    left: 70px;
+    left: 110px;
   }
 
   .features_title:after {
     position: absolute;
-    left: 390px;
+    left: 350px;
   }
 
   .overlay {
     width: 203px;
     height: 162px;
+  }
+
+  .features_titles {
+    font-size: 24px;
   }
 
   .features-p {
@@ -91,7 +106,11 @@
 
   .button {
     position: absolute;
-    top: 650px;
+    top: 500px;
+  }
+
+  .button-item {
+    font-size: 10px;
   }
 
   .footer-img {
@@ -100,7 +119,7 @@
 
   .footer-p {
     position: absolute;
-    top: 5px;
+    top: -5px;
     left: 100px;
   }
 }
@@ -406,7 +425,7 @@
     width: 100%;
     z-index: -1;
     position: absolute;
-    top: 110px;
+    top: 80px;
     left: 0;
     overflow: hidden;
   }
