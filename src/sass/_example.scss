@@ -496,7 +496,8 @@ cursor: pointer;
 .video-container {
   display: block;
   width: 100%;
-  position: relative;
+  position: absolute;
+  top: 190px;
   cursor: pointer;
 }
 
@@ -516,8 +517,8 @@ cursor: pointer;
   background-position: center center;
   background-size: 35px auto;
   position: absolute;
-  left: 50%;
-  top: 50%;
+  left: 90%;
+  top: 80%;
   transform: translate(-50%, -50%);
   z-index: 1;
 }
