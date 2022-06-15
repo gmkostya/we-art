@@ -620,34 +620,29 @@
 
   #menu-social {
     width: 350px;
-    height: 174px;
+    height: 142px;
     margin: 440px 0 0 -40px;
-    padding: 0 0 0 80px;
+    padding: 0 0 0 90px;
   }
 
-  .baner {
-    width: 100%;
-    z-index: -1;
-    position: absolute;
-    top: 100px;
-    left: 0;
-    overflow: hidden;
+  #menu-social a {
+    width: 50px;
+    height: 50px;
   }
 
-  .play {
-    position: absolute;
-    top: 500px;
-    left: 1030px;
+  #menu-social svg {
+    width: 30px;
+    height: 30px;
   }
 
-  .overlay {
-    width: 355px;
-    height: 284px;
+  .main {
+    height: auto;
   }
 
   .features_title {
     justify-content: center;
     align-items: center;
+    font-size: 34px;
     display: flex;
   }
 
@@ -671,8 +666,8 @@
     line-height: 25px;
   }
 
-  .main {
-    height: 1800px;
+  .features-item {
+    height: 600px;
   }
 
   .features_titles {
@@ -702,7 +697,7 @@
 
   .button {
     position: absolute;
-    top: 470px;
+    top: 510px;
   }
 
   .footer-bar {
