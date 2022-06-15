@@ -142,16 +142,18 @@
     left: 15px;
   }
 
-  .baner {
+  .video-container {
+    width: 100%;
+    cursor: pointer;
+    display: block;
     position: absolute;
-    top: 73px;
-    left: 0;
+    top: 108px;
   }
 
-  .play {
+  .video-controls {
     position: absolute;
-    top: 210px;
-    left: 500px;
+    top: 84%;
+    left: 90%;
   }
 
   .overlay {
@@ -167,16 +169,16 @@
 
   .features_title:before {
     position: absolute;
-    left: 120px;
+    left: 165px;
   }
 
   .features_title:after {
     position: absolute;
-    left: 430px;
+    left: 390px;
   }
 
   .features-item {
-    height: 620px;
+    height: 500px;
   }
 
   .features_titles {
@@ -187,7 +189,7 @@
 
   .button {
     position: absolute;
-    top: 500px;
+    top: 400px;
   }
 
   .footer-img {

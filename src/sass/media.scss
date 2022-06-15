@@ -154,17 +154,23 @@ align-items: center;
    
   }
   
-  .baner{
-    position: absolute; 
-    top: 73px; 
-    left: 0; 
+ 
+  .video-container {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 108px;
+    cursor: pointer;
   }
   
-  .play {
-    position: absolute;
-    top: 210px;
-    left: 500px;}
 
+  .video-controls {
+ 
+    position: absolute;
+    left: 90%;
+    top: 84%;
+  
+  }
 
     .overlay{
       width: 250px;
@@ -180,15 +186,15 @@ align-items: center;
         }
         .features_title::before {
           position: absolute;
-          left: 120px;
+          left: 165px;
         }
         .features_title::after {
           position: absolute;
-          left: 430px;
+          left: 390px;
         }
 
     .features-item{
-      height: 620px;
+      height: 500px;
     }
     .features_titles {
       font-weight: 400;
@@ -199,7 +205,7 @@ align-items: center;
 
     .button{
       position: absolute;
-      top: 500px; 
+      top: 400px; 
     
     }
 
